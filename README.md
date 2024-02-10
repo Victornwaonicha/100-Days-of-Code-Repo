@@ -14,7 +14,7 @@ Hey there! Welcome to my personal Python learning repository. If you've stumbled
 
 Getting started is a breeze:
 
-1. **Clone this Repository**: `git clone https://github.com/Victornwaonicha/100-Days_with_angela.git`
+1. **Clone this Repository**: `git clone git@github.com:Victornwaonicha/100-Days-of-Code-Repo.git`
 2. **Navigate to the Learning Folder**: `cd 100-Days-of-Code`
 3. **Explore the Code and Notes**: Open the scripts, read the comments, and check out my learning notes.
 
@@ -39,11 +39,3 @@ If you have any questions, suggestions, or just want to chat about Python, feel 
 
 A big shoutout to the Python community and all the resources that made this self-paced learning journey possible!!! 🐍🐍🐍
 
-Test
-kenfjhdjcnd
-
-edfkjbckjbjkefnd
-
-efdnbevlhfjkb
-
-ewcjkwnckjrwd
