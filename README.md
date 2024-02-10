@@ -1,6 +1,6 @@
 # Welcome to My Python Learning Journey!
 
-## Introduction to 100-Days-of-Code.
+## Introduction to 100-Days-of-Code-Repo.
 
 Hey there! Welcome to my personal Python learning repository. If you've stumbled upon this, you're about to embark on a journey to become a Pythonista! 🐍
 
@@ -15,7 +15,7 @@ Hey there! Welcome to my personal Python learning repository. If you've stumbled
 Getting started is a breeze:
 
 1. **Clone this Repository**: `git clone git@github.com:Victornwaonicha/100-Days-of-Code-Repo.git`
-2. **Navigate to the Learning Folder**: `cd 100-Days-of-Code`
+2. **Navigate to the Learning Folder**: `cd 100-Days-of-Code-Repo`
 3. **Explore the Code and Notes**: Open the scripts, read the comments, and check out my learning notes.
 
 ## Learning Path
