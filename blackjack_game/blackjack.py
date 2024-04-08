@@ -75,7 +75,7 @@ def compare(user_score, computer_score):
     elif user_score > computer_score:
         return "You win!"
     else:
-        return "You loss!"
+        return "You lose!"
 
 
 def play_game():
