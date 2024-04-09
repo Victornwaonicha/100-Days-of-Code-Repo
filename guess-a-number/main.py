@@ -1,4 +1,5 @@
 from random import randint
+from art import logo
 
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
@@ -26,6 +27,7 @@ def set_difficulty():
 
 name = input("Please enter your name: ")
 def game():
+    print(logo)
     #Choosing a random number between 1 and 100
     
     print(f"Welcome to the quessing game {name}!")
