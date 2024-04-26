@@ -13,7 +13,6 @@ class BankAccount:
              self._balance -= amount
         else:
             print("Insufficient Funds")
-            return
         
     def get_balance(self):
         return self._balance
