@@ -25,7 +25,7 @@ def set_difficulty():
     else:
         return HARD_LEVEL_TURNS
 
-name = input("Please enter your name: ")
+name = input("What is your name?: ")
 def game():
     print(logo)
     #Choosing a random number between 1 and 100
