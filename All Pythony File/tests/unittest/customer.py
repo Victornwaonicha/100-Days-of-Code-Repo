@@ -23,7 +23,7 @@ class Customer:
     
     @property
     def customer_fullname(self):
-        return f"{self.first_name} {self.last_name} is purchaing for {self.purchase}"
+        return f"{self.first_name} {self.last_name}"
     
     
     def apply_discount(self):
@@ -38,3 +38,7 @@ victor = Customer("Victor", "Moore", 5000)
 print(victor.customer_fullname)
 """Accessing Property: The customer_fullname property of the victor instance is accessed, 
    which triggers the method decorated with @property."""
+
+
+
+"""https://mattermost.com/blog/testing-python-understanding-doctest-and-unittest/"""
