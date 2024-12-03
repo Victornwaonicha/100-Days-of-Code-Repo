@@ -19,5 +19,8 @@ class Config:
     ADMINS = ['malloyoung78@gmail.com']
 
     # Posts per page configuration.
-    POSTS_PER_PAGE = 25
+    POSTS_PER_PAGE = 3
+
+    # Supported languages list.
+    LANGUAGES = ['en', 'es']
 

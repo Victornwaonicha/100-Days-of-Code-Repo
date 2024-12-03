@@ -1,3 +1,4 @@
+from flask import request
 from flask import Flask
 from config import Config
 from flask_sqlalchemy import SQLAlchemy
@@ -7,12 +8,27 @@ import logging
 from logging.handlers import SMTPHandler
 from logging.handlers import RotatingFileHandler
 import os
+from flask_mail import Mail
+from flask_moment import Moment
+from flask_babel import Babel
 
 
+
+def get_locale():
+    return request.accept_languages.best_match(bot_1.config['LANGUAGES'])
 
 
 # Being an innstance variable of Flask makes bot_1 a member of the app package.
 bot_1 = Flask(__name__)
+
+# Initialize Flask-Babel.
+babel = Babel(bot_1, locale_selector=get_locale)
+
+# Flask-Mail instance.
+mail = Mail(bot_1)
+
+# Flask-Moment instance
+moment = Moment(bot_1)
 
 # Flask-Login initialization
 login = LoginManager(bot_1)
@@ -53,3 +69,7 @@ if not bot_1.debug:
 
 # Import error handlers
 from app import routes, models, errors
+
+
+
+# nitialize Flask-Babel.
