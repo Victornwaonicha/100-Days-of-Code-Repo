@@ -1,14 +1,19 @@
 # Higher Lower Game To-Do List:
 # 1. Import necessary modules
+import os
 import random
 from random import choice
 
 
-# 2. Set up data
+# 2. Set up data & art
 from game_data import data
+from art import logo, vs
 
 # 3. Display game intro and rules
 name = input("What is your name?: ")
+
+print(logo)
+
 print(f"Welcome to the Higher Lower Game {name}!")
 print("Guess which has more followers: A or B?")
 
@@ -27,6 +32,7 @@ select_2 = f"Compare B: {option_b['name']}, a {option_b['description']} from {op
 
 
 print(select_1)
+print(vs)
 print(select_2)
 
 
@@ -57,6 +63,10 @@ if is_correct:
     print(f"You are right! Current score: {score}")
 else:
     print(f"Sorry, that's wrong.")
+os.system('clear')
+
+
+
 
 
 
@@ -68,8 +78,10 @@ while is_correct:
     select_1 = f"Compare A: {option_a['name']}, a {option_a['description']} from {option_a['country']}"
     select_2 = f"Compare B: {option_b['name']}, a {option_b['description']} from {option_b['country']}"
 
-
+    print(logo)
+    print(f"You are right! Current score is now: {score}")
     print(select_1)
+    print(vs)
     print(select_2) 
 
     answer = input("Which has more followers, A or B:").upper()
@@ -85,15 +97,21 @@ while is_correct:
         is_correct = False
 
 
+
     if is_correct:
         score = score +1
-        print(f"You are right! Current score: {score}")
+        print(f"You are right! Current score is now: {score}")
     else:
-        print(f"Sorry, that's wrong.")
+        print(f"Sorry, you got it wrong.")
+    os.system('clear')
+
+    
+        
 
 
 
 # 10. End game with final score
+print(logo)
 print(f"Game over, final score: {score}")
 
 
